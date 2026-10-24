@@ -5,63 +5,91 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Meysel Villavicencio Ricardo · IA aplicada y automatización</title>
   <meta name="description" content="Ingeniera informática especializada en IA aplicada, agentes de IA, automatización con n8n, integraciones y análisis de datos. Córdoba, España · Remoto.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <header class="hero">
-    <p class="kicker">IA · Automatización · Integraciones · Datos</p>
-    <h1>Meysel Villavicencio Ricardo</h1>
-    <p class="tagline">Ingeniera informática especializada en automatización e IA aplicada. Diseño, implemento y documento soluciones de principio a fin, desde el caso de uso hasta el flujo en producción.</p>
-    <p class="meta">Córdoba, España · Disponible en remoto</p>
-    <div class="cta">
-      <a class="btn" href="mailto:myavr92@gmail.com">Contactar</a>
-      <a class="btn ghost" href="https://www.linkedin.com/in/meysel-villavicencio-ricardo/">LinkedIn</a>
-    </div>
-    <nav>
+  <nav class="topbar" id="topbar">
+    <a class="brand" href="#inicio">M<span>V</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <div class="links">
       <a href="#sobre-mi">Sobre mí</a>
       <a href="#servicios">Qué hago</a>
       <a href="#experiencia">Experiencia</a>
       <a href="#habilidades">Tecnologías</a>
       <a href="#formacion">Formación</a>
       <a href="#contacto">Contacto</a>
-    </nav>
+    </div>
+  </nav>
+
+  <header class="hero" id="inicio">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="kicker">IA · Automatización · Integraciones · Datos</p>
+        <h1>Meysel <em>Villavicencio</em> Ricardo</h1>
+        <div class="ornament" aria-hidden="true"><span>❖</span></div>
+        <p class="tagline">Ingeniera informática especializada en automatización e IA aplicada. Diseño, implemento y documento soluciones de principio a fin, desde el caso de uso hasta el flujo en producción.</p>
+        <p class="meta">Córdoba, España · Disponible en remoto</p>
+        <div class="cta">
+          <a class="btn" href="mailto:myavr92@gmail.com"><span>Contactar</span><i>→</i></a>
+          <a class="btn ghost" href="#experiencia"><span>Ver trayectoria</span><i>↓</i></a>
+        </div>
+      </div>
+      <figure class="hero-art">
+        <img src="img/banner.svg" alt="Flujo de automatización: webhook, CRM y datos conectados a un agente de IA que genera informes y respuestas" width="600" height="520">
+      </figure>
+    </div>
+    <div class="stats">
+      <div><strong data-count="10">0</strong><span>años en tecnología</span></div>
+      <div><strong data-count="5">0</strong><span>áreas de especialidad</span></div>
+      <div><strong>n8n</strong><span>agentes y flujos con IA</span></div>
+    </div>
   </header>
 
   <main>
-    <section id="sobre-mi">
-      <h2>Sobre mí</h2>
+    <section class="reveal" id="sobre-mi">
+      <h2><span class="num"></span>Sobre mí</h2>
       <p>Ingeniera informática con Máster en Informática Aplicada, especializada en aplicar inteligencia artificial y modelos de lenguaje (LLM) a procesos reales de negocio. Diseño agentes de IA y flujos con n8n que conectan herramientas mediante APIs y webhooks, e integran LLM para clasificar, resumir, extraer información y responder, reduciendo tareas manuales.</p>
       <p>Combino análisis de datos, desarrollo web y validación funcional, con capacidad para trabajar entre negocio y tecnología.</p>
     </section>
 
-    <section id="servicios">
-      <h2>Qué hago</h2>
+    <section class="reveal" id="servicios">
+      <h2><span class="num"></span>Qué hago</h2>
       <div class="cards">
         <article class="card">
+          <div class="icon" aria-hidden="true">🤖</div>
           <h3>Agentes de IA y LLM</h3>
           <p>Agentes que clasifican, resumen, extraen datos y generan respuestas, con prompt engineering, salidas estructuradas y RAG sobre los datos de cada organización.</p>
         </article>
         <article class="card">
+          <div class="icon" aria-hidden="true">⚙️</div>
           <h3>Automatización con n8n</h3>
           <p>Flujos que conectan la web con ventas, CRM, marketing y soporte mediante APIs y webhooks, para eliminar tareas manuales.</p>
         </article>
         <article class="card">
+          <div class="icon" aria-hidden="true">📊</div>
           <h3>Datos y dashboards</h3>
           <p>Análisis, limpieza y modelado de datos en PostgreSQL y MySQL, con informes y cuadros de mando para la toma de decisiones.</p>
         </article>
         <article class="card">
+          <div class="icon" aria-hidden="true">🌐</div>
           <h3>Web y comercio electrónico</h3>
           <p>Sitios WordPress y PrestaShop adaptables: estructura de contenidos, temas, plugins y tiendas online.</p>
         </article>
         <article class="card">
+          <div class="icon" aria-hidden="true">✅</div>
           <h3>Validación y QA</h3>
           <p>Pruebas funcionales y de regresión de APIs e integraciones, seguimiento de incidencias en Jira y documentación de evidencias.</p>
         </article>
       </div>
     </section>
 
-    <section id="experiencia">
-      <h2>Experiencia</h2>
+    <section class="reveal" id="experiencia">
+      <h2><span class="num"></span>Experiencia</h2>
+      <div class="timeline">
       <article class="job">
         <h3>Analista de Datos y Automatización</h3>
         <p class="dates">Fundación FREE · Córdoba, España · 2025 – Actualidad</p>
@@ -107,10 +135,11 @@
           <li>Soporte técnico, administración de sistemas y redes, seguridad de la información y formación a usuarios.</li>
         </ul>
       </article>
+      </div>
     </section>
 
-    <section id="habilidades">
-      <h2>Tecnologías</h2>
+    <section class="reveal" id="habilidades">
+      <h2><span class="num"></span>Tecnologías</h2>
       <div class="skills">
         <div><h3>IA</h3><ul class="tags"><li>LLM (OpenAI, Claude, Gemini)</li><li>Prompt engineering</li><li>Agentes de IA</li><li>RAG</li></ul></div>
         <div><h3>Automatización</h3><ul class="tags"><li>n8n</li><li>APIs</li><li>Webhooks</li></ul></div>
@@ -120,8 +149,8 @@
       </div>
     </section>
 
-    <section id="formacion">
-      <h2>Formación e idiomas</h2>
+    <section class="reveal" id="formacion">
+      <h2><span class="num"></span>Formación e idiomas</h2>
       <article class="job">
         <h3>Máster en Informática Aplicada</h3>
         <p class="dates">Universidad de Las Tunas, Cuba · 2017 – 2020</p>
@@ -133,19 +162,21 @@
       <ul class="tags"><li>Español · Nativo</li><li>Inglés · B2</li></ul>
     </section>
 
-    <section id="contacto">
-      <h2>Contacto</h2>
-      <p>¿Tienes un proceso que se podría automatizar o un proyecto con IA? Hablemos.</p>
-      <p>
-        <a href="mailto:myavr92@gmail.com">myavr92@gmail.com</a> ·
-        <a href="https://www.linkedin.com/in/meysel-villavicencio-ricardo/">LinkedIn</a> ·
-        <a href="https://github.com/mey-villarik">GitHub</a>
-      </p>
+    <section class="reveal" id="contacto">
+      <h2><span class="num"></span>Contacto</h2>
+      <p class="lead">¿Tienes un proceso que se podría automatizar o un proyecto con IA? Hablemos.</p>
+      <div class="cta center">
+        <a class="btn" href="mailto:myavr92@gmail.com"><span>myavr92@gmail.com</span><i>✉</i></a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/meysel-villavicencio-ricardo/"><span>LinkedIn</span><i>↗</i></a>
+        <a class="btn ghost" href="https://github.com/mey-villarik"><span>GitHub</span><i>↗</i></a>
+      </div>
     </section>
   </main>
 
   <footer>
+    <div class="ornament" aria-hidden="true"><span>❖</span></div>
     <p>© 2026 Meysel Villavicencio Ricardo</p>
+    <a class="to-top" href="#inicio" aria-label="Volver arriba">↑</a>
   </footer>
 </body>
 </html>
